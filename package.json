@@ -1,0 +1,31 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "description": "APP is a software to do stuff",
+  "main": "index.js",
+  "repository": "",
+  "author": "MVCDS <marvinc.silva@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": "8.9.4"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --hot",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "node-env-file": "^0.1.8",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}

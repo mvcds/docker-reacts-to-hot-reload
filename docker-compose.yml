@@ -1,0 +1,10 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+    - ${APP_PORT}:${APP_PORT}
+    volumes:
+    - .:/usr/src/app/:rw
+    command: >
+      yarn start

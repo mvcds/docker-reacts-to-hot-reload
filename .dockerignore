@@ -1,0 +1,11 @@
+Dockerfile
+docker-compose.yml
+node_modules/*
+coverage/*
+dist/*
+*.log
+.git/*
+.gitignore
+.editorconfig
+LICENSE
+README.md
