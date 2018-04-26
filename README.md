@@ -13,23 +13,25 @@ Before cloning this repo, you should install
 
 # Files
 
--src: folder where source the project's source files live
-----app: the React app
---------index.html: a simple HTML file linked to the bundle that webpack will produce
---------index.js: the file which uses React to show the "Hello, world!" message
-----infra: the project's infrastructure
---------environment.js: where you declare the important environment variables for the app - I'll explain it better later
-----domain: (NOT PROVIDED) for files relative to the project's domain
--.babelrc: it configures the babel transpiler to work with React
--.dockerignore: the files here won't be transfered to Docker
--.editorconfig: how files will be formatted across the project
--.gitignore: files which should not be commited on git
--.nvmrc: for those who use NVM, this file allows to use the correct node version on the machine
--Dockerfile: Docker reads this file when creating the image
--docker-compose.yml: Docker Compose reads this file when mouting the container
--package.json: Node and your package manager read this file in order to make everything work
--README.md: you're reading it
--webpack.config.js: I've been using Webpack to bundle my React projects
+```
+├─ src: folder where source the project's source files live
+|  ├─ app: the React app
+|  |  ├─ index.html: a simple HTML file linked to the bundle that webpack will produce
+|  |  └─ index.js: the file which uses React to show the "Hello, world!" message
+|  ├─ infra: the project's infrastructure
+|  |  └─ environment.js: where you declare the important environment variables for the app ── I'll explain it better later
+|  └─ domain: (NOT PROVIDED) for files relative to the project's domain
+├─ .babelrc: it configures the babel transpiler to work with React
+├─ .dockerignore: the files here won't be transfered to Docker
+├─ .editorconfig: how files will be formatted across the project
+├─ .gitignore: files which should not be commited on git
+├─ .nvmrc: for those who use NVM, this file allows to use the correct node version on the machine
+├─ Dockerfile: Docker reads this file when creating the image
+├─ docker-compose.yml: Docker Compose reads this file when mouting the container
+├─ package.json: Node and your package manager read this file in order to make everything work
+├─ README.md: you're reading it
+└─ webpack.config.js: I've been using Webpack to bundle my React projects
+```
 
 # Running the project
 
