@@ -13,6 +13,7 @@ Before cloning this repo, you should install
 
 # Files
 
+```
 ├── src: folder where source the project's source files live
 
   ├── app: the React app
@@ -46,6 +47,7 @@ Before cloning this repo, you should install
 ├── README.md: you're reading it
 
 └── webpack.config.js: I've been using Webpack to bundle my React projects
+```
 
 # Running the project
 
