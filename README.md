@@ -14,7 +14,7 @@ Before cloning this repo, you should install
 # Files
 
 ```
-├─ src: folder where source the project's source files live
+├─ src: folder where the project's source files live
 |  ├─ app: the React app
 |  |  ├─ index.html: a simple HTML file linked to the bundle that webpack will produce
 |  |  └─ index.js: the file which uses React to show the "Hello, world!" message
